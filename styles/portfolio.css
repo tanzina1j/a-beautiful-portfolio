@@ -33,7 +33,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px;
+    margin: 0px 150px 0px;
+    padding-left: 150px;
 }
 .nav-title {
     color: #181818;
@@ -59,16 +60,19 @@ nav a{
     background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 0px 50px;
     display: flex;
-    align-items:center ;
     justify-content: space-between;
+}
+.site-banner img{
+    width: 60px;
 }
 .banner-content{
     max-width: 500px;
 }
 .profile-pic{
     width: 500px;
+    position: bottom;
 }
 .banner-greeting{
     font-size: 45px;
@@ -152,4 +156,28 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 500px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 70%;
 }
